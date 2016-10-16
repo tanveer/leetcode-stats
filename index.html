@@ -46,10 +46,41 @@
 <li>PhantomJS</li>
 </ul>
 
-<p>Download the package on <a href="http://phantomjs.org/">PhantomJS' website</a>. Put the <code>phantomjs</code> binary in your path.</p>
+<p>Download the package on <a href="http://phantomjs.org/">PhantomJS' website</a>. Put the <code>phantomjs</code> binary in your path.
+I have tried Chrome with <a href="https://sites.google.com/a/chromium.org/chromedriver/">ChromeDriver</a>, the PhantomJS performs better.</p>
+
+<div class="highlight highlight-source-shell"><pre>➜  leetcode-stats git:(master) ✗ <span class="pl-k">time</span> ./leetcode-stats.py -u xxx -p xxx
+Total problems 404
+--------------
+Easy   problems solved: 84 / 107
+Medium problems solved: 57 / 209
+Hard   problems solved: 19 / 88
+--------------
+./leetcode-stats.py -u xxx -p xxx  2.47s user 0.44s system 9% cpu 29.814 total
+➜  leetcode-stats git:(master) ✗ <span class="pl-k">time</span> ./leetcode-stats.py -u xxx -p xxx
+Total problems 404
+--------------
+Easy   problems solved: 84 / 107
+Medium problems solved: 57 / 209
+Hard   problems solved: 19 / 88
+--------------
+./leetcode-stats.py -u xxx -p xxx  1.81s user 0.51s system 6% cpu 37.845 total</pre></div>
 
 <h3>
 <a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h3>
+
+<div class="highlight highlight-source-shell"><pre>➜  leetcode-stats git:(master) ✗ ./leetcode-stats.py -h
+usage: leetcode-stats.py [-h] -u USERNAME -p PASSWORD [-o OUT]
+
+extract algorithm stats from LeetCode OJ.
+
+optional arguments:
+  -h, --help            show this <span class="pl-c1">help</span> message and <span class="pl-c1">exit</span>
+  -u USERNAME, --username USERNAME
+                        website username
+  -p PASSWORD, --password PASSWORD
+                        website password
+  -o OUT, --out OUT     dump problems <span class="pl-k">in</span> a csv file</pre></div>
       </section>
     </div>
     <footer>
