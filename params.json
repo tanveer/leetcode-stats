@@ -1,0 +1,6 @@
+{
+  "name": "Leetcode-stats",
+  "tagline": "A python script to get your problem stats on leetcode.",
+  "body": "### Motivation\r\nI wanted to get more diversified stats of those problems I have worked on Leetcode. Due to NOT familiar with javascript/AJAX hacking, I built this python script with [Selenium](http://docs.seleniumhq.org/) and [PhantomJS](http://phantomjs.org/) to parse the problem tables.\r\n\r\n\r\n\r\n### Prerequisite\r\n\r\n- Selenium\r\n\r\n\r\n```\r\npip install selenium\r\n```\r\n\r\n- PhantomJS\r\n\r\nDownload the package on [PhantomJS' website](http://phantomjs.org/). Put the `phantomjs` binary in your path.\r\n\r\n\r\n### Usage\r\n\r\n\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
