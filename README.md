@@ -10,6 +10,12 @@ I wanted to get more diversified stats of those problems I have worked on Leetco
 
 ### Prerequisite
 
+- Pandas
+
+```
+pip install pandas
+```
+
 - Selenium
 
 
