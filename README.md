@@ -64,4 +64,9 @@ optional arguments:
   -o OUT, --out OUT     dump problems in a csv file
 ```
 
+### TODO
+
+- Add stats for paid user (frequency, company).
+- Provide tag-based stats
+- Parse draft problems. Draft problems has company information.
 
