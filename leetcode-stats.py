@@ -73,6 +73,7 @@ if __name__ == '__main__':
         sys.exit()
 
     try:
+        browser.get("https://leetcode.com/problemset/all/");
         element_rowsperpage = WebDriverWait(browser, 5).until(
             ec.presence_of_element_located((By.XPATH, "//span[@class='row-selector']/select[@class='form-control']"))
         )
